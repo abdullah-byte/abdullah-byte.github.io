@@ -1,1 +1,38 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WIKI APP</title>
+    <link rel="stylesheet" href="project.css">
+  </head>
+
+<main>
+  <header class="header">
+    <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/657px-Wikipedia-logo-v2.svg.png" alt="Wikipedia Logo" />
+    <h1><span style ="color:green">WIKI</span> <span style="color: white">SEARCH</span> <span style="color: green">APP</span></h1>
+
+    <form class="search-form js-search-form">
+      <input placeholder="Type a keyword and press Enter to search" type="search" class="search-input js-search-input" autofocus />
+    </form>
+  </header>
+
+  <div class="loading-indicator">
+    <div class="sk-chase js-spinner hidden">
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+    </div>
+  </div>
+
+  <section class="search-results js-search-results"></section>\
+
+  <section class="copyright">
+  <p>&copy;ABDULLAH MUMUNI</p>
+  </section>
+</main>
+<script src="project.js"></script>
+</html>
